@@ -6,6 +6,24 @@ function config($key, $default = null)
     return $configs[$key] ?? $default;
 }
 
+function calc_experience($date_of_employment)
+{
+
+    // Calculate years and months of experience
+    $years_of_experience = date('Y') - date('Y', strtotime($date_of_employment));
+    $months_of_experience = date('m') - date('m', strtotime($date_of_employment));
+
+    // If the current month is less than the month of employment, adjust the year and month accordingly
+    if ($months_of_experience < 0) {
+        $years_of_experience--;
+        $months_of_experience = 12 - abs($months_of_experience);
+    }
+
+    $months_of_experience_dec = $months_of_experience / 12;
+
+    return $years_of_experience ? "$years_of_experience.$months_of_experience_dec years" : "$months_of_experience months";
+}
+
 function format_date($date, $format = null)
 {
     $format = $format ?: config('date_format', 'm/d/Y');

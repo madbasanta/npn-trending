@@ -107,8 +107,8 @@
                     <h4 class="selection_text">INDUSTRIAL</h4>
                     <p class="ipsum_text">
                         In the industrial sector, it is essential to adhere to strict processes, systems,
-                        and safety guidelines in order to maintain a safe and secure facility. With over 10
-                        years of experience cleaning food production facilities, refineries, and warehouses,
+                        and safety guidelines in order to maintain a safe and secure facility. 
+                        With over <?= calc_experience('June 10, 2022') ?> of experience cleaning food production facilities, refineries, and warehouses,
                         NPN is well-equipped to handle the unique cleaning needs of your facility.
                     </p>
                     <p class="ipsum_text">
