@@ -73,7 +73,7 @@
                   </div>
                   <h4 class="selection_text">GOVERNMENT</h4>
                   <p class="ipsum_text">
-                     With over 30 years of experience cleaning and maintaining government assets,
+                     With over <?= calc_experience('June 10, 2022') ?> of experience cleaning and maintaining government assets,
                      NPN is well-equipped to handle the complexities of working with multiple stakeholders
                      across multiple sites. We have successfully fulfilled government contracts for a wide
                      range of buildings, including brand new 6-star rated complexes and heritage-listed sites.
@@ -97,8 +97,8 @@
                   <h4 class="selection_text">INDUSTRIAL</h4>
                   <p class="ipsum_text">
                      In the industrial sector, it is essential to adhere to strict processes, systems,
-                     and safety guidelines in order to maintain a safe and secure facility. With over 10
-                     years of experience cleaning food production facilities, refineries, and warehouses,
+                     and safety guidelines in order to maintain a safe and secure facility. 
+                     With over <?= calc_experience('June 10, 2022') ?> of experience cleaning food production facilities, refineries, and warehouses,
                      NPN is well-equipped to handle the unique cleaning needs of your facility.
                   </p><br>
                   <p class="ipsum_text">
@@ -134,7 +134,7 @@
                   <h4 class="selection_text">TRANSPORT</h4>
                   <p class="ipsum_text">
                      The safety and traveling experience of your customers is of the utmost importance.
-                     With over years of experience in the transport sector, NPN is dedicated to ensuring the
+                     With over <?= calc_experience('June 10, 2022') ?> of experience in the transport sector, NPN is dedicated to ensuring the
                      cleanliness,
                      hygiene, and safety of your transport environment.
                   </p><br>
