@@ -15,11 +15,14 @@
         <h1 class="about_taital">About Us</h1>
         <div class="about_text">
             <p class="ipsum_text">
-                NPN is a Melbourne-based cleaning, demolition, and waste management company that prioritizes quality
-                service, environmental protection, and employee safety. Established on June 10, 2022, NPN aims to build
-                trust with clients through its commitment to using environmentally friendly products and personal
-                protective equipment. The company's goal is to provide satisfaction and peace of mind to clients while
-                also contributing to its own progress.
+                NPN is one of the most reliable cleaning, demolition, and waste management companies established on June 10, 2022, based on commercial services. 
+                The company is trying to build trust with different clients through contractors and builders too. 
+                The main target is to provide quality service across Melbourne in the upcoming year, considering the importance of the environment. 
+                We will ensure that our clients' goals are reached through the use of environmentally friendly chemicals and products, 
+                with the help of personal protective equipment. 
+                This plays a prominent role in the health and safety of the employees because we cannot compromise if any shorts of accidents happen in the workplace. 
+                That's why it should be considered a high priority to give sustainability to work safety and satisfaction guarantee through our service, 
+                leading to fulfilling the requirements of the client along with the progress of the company.
             </p>
             <p class="ipsum_text">
                 Mail : <a href="mailto:<?= config('email') ?>"><?= config('email') ?></a> <br>
